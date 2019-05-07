@@ -1,5 +1,3 @@
-require './lib/rvc/component_helper'
-
 module Rvc
   class Component
     include Rvc::ComponentHelper
@@ -56,7 +54,7 @@ module Rvc
     private
 
     def JavascriptFunction(name: nil, **arguments, &block)
-      javascript_function = JavascriptFunction.new block: block,
+      javascript_function = Rvc::JavascriptFunction.new block: block,
         arguments: arguments,
         name: name
 
@@ -70,7 +68,7 @@ module Rvc
     end
 
     def inline
-      inline = yield Inline.new(base: base)
+      inline = yield Rvc::Inline.new(base: base)
 
       base.render inline: inline.render
     end
