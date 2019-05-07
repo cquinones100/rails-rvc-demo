@@ -20,7 +20,7 @@ class Home < Rvc::Component
               title_row_container.add do
                 Div class: 'col-md-4' do
                   <<~HTML
-                  <a href='https://github.com/cquinones100/rvc_compiler'>
+                  <a href='https://github.com/cquinones100/rails-rvc-demo'>
                     View on Github
                   </a>
                   HTML
