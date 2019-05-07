@@ -1,5 +1,5 @@
 class Component
-  include Rvc::ComponentHelper
+  include ComponentHelper
 
   class << self
     def render(base: , **args, &block)

@@ -1,3 +1,3 @@
 module ApplicationHelper
-  include Rvc::ComponentHelper
+  include ComponentHelper
 end
