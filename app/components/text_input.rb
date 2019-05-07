@@ -1,4 +1,4 @@
-class TextInput < Component
+class TextInput < Rvc::Component
   locals :onchange
 
   def render

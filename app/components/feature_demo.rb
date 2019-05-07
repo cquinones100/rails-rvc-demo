@@ -1,4 +1,4 @@
-class FeatureDemo < Component
+class FeatureDemo < Rvc::Component
   locals title: :required, summary: :required, embed_code: :required
 
   def render

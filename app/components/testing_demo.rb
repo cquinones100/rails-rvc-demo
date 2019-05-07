@@ -1,4 +1,4 @@
-class TestingDemo < Component
+class TestingDemo < Rvc::Component
   TITLE = 'Testing'.freeze
   SUMMARY = 'Test components with expressive matchers'.freeze
 

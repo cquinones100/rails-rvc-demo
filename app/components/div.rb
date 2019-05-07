@@ -1,4 +1,4 @@
-class Div < Component
+class Div < Rvc::Component
   locals :id, :onclick, :class, :style
 
   def render

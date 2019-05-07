@@ -1,4 +1,4 @@
-class HtmlDemo < Component
+class HtmlDemo < Rvc::Component
   TITLE = 'HTML'.freeze
   SUMMARY = 'Generate HTML with Ruby Objects'.freeze
 

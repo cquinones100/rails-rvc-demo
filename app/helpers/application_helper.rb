@@ -1,3 +1,5 @@
+require './lib/rvc/rvc'
+
 module ApplicationHelper
-  include ComponentHelper
+  include Rvc::ComponentHelper
 end

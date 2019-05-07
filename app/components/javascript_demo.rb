@@ -1,4 +1,4 @@
-class JavascriptDemo < Component
+class JavascriptDemo < Rvc::Component
   def render
     FeatureDemo title: 'Javascript',
       summary: 'Write Javascript directly in components.',

@@ -1,4 +1,4 @@
-class Home < Component
+class Home < Rvc::Component
   def render
     body
   end
